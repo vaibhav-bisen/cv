@@ -1,0 +1,88 @@
+body {
+  background-color: #b2b2b2;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3c4048;
+  color: white;
+  text-align: center;
+  padding-top: 0.8rem;
+}
+
+/* ONE */
+.wellcome {
+  position: relative;
+  height: 100vh;
+}
+
+.name {
+  color: white;
+  position: absolute;
+  padding: 18rem 8rem;
+}
+.carousel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+.carousel-inner img {
+  height: 100vh;
+}
+
+/* TWO */
+#about_me {
+  padding: 3.2rem 2rem;
+  background-color: #b2b2b2;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
+    radial-gradient(#444cf7 0.5px, #b2b2b2 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+.profile{
+  position: absolute;
+  left: 10rem;
+  top: 15rem;
+  margin-left: 15rem;
+}
+
+/* THREE */
+#project {
+  padding: 3.2rem 2rem;
+  background-color: #b2b2b2;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, #b2b2b2 0.5px);
+  background-size: 10px 10px;
+}
+
+/* FOUR */
+.contact {
+  padding: 3.2rem 2rem;
+  height: 100vh;
+  background-color: #b2b2b2;
+  opacity: 0.8;
+  background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px),
+    radial-gradient(#444cf7 0.5px, #b2b2b2 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+  .name {
+    padding: 18rem 3rem;
+    top: 0;
+    left: 5rem;
+  }
+  .profile{
+    left: 5rem;
+    top: 25rem;
+    margin-left: 0;
+  }
+}
